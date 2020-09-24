@@ -1,0 +1,97 @@
+body {
+  font-family: Optima, helvetica, sans-serif;
+  margin: 64px 88px 80px 88px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  /* background-image: url("clarke4.jpg");
+  background-size: cover; */
+  background-color: #ffffe7; /*#ffffe7 EBF0F6 f5f1da  22272  134510  39112*/
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  display: inline;
+  margin: 0;
+}
+
+ul {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+p {
+  width: calc(100% - 250px);
+  margin: 0;
+  padding: 0 0 16px 0;
+}
+
+.title {
+  font-weight: bold;
+  display: inline;
+}
+
+.skilltitle {
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  margin: 0 0 16px 0;
+  padding: 0;
+  font-variant: small-caps;
+}
+
+.left{
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.skill{
+  float: left;
+  padding: 0 30px 0 50px;
+  margin: 0;
+}
+
+.right{
+  float: right;
+  text-align: right;
+  margin: 0;
+}
+
+.row {
+  padding: 0 0 16px 0;
+}
+
+.row:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.location {
+  display: inline;
+  margin-left: -5px;
+}
+
+.dots{
+  margin: 0;
+  width: 900px;
+  list-style-type: disc;
+  margin-left: 50px;
+}
+
+.position {
+  padding-left: 30px;
+}
